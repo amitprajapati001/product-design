@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+body {
+  overflow-x: hidden;
+  background: linear-gradient(to bottom right, #111111, #111111);
+}
+
+.front-page {
+  padding-top: 30px;
+  background: linear-gradient(to bottom right, #111111, #111111);
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.nav-items {
+  display: flex;
+  gap: 70px;
+  margin-left: 155px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
+  margin-left: 80px;
+}
+.container-one {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  margin-top: 40px;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.top-image {
+  height: 500px;
+  margin-left: 120px;
+  margin-top: -50px;
+}
+
+.text-one {
+  position: relative;
+  margin-top: 70px;
+}
+
+.heading-one {
+  margin-top: 10px;
+  font-size: 50px;
+}
+
+.text-one .para-one {
+  font-size: 17px;
+  margin-top: 10px;
+  font-weight: 100;
+}
+
+.profile-name {
+  color: red;
+}
+
+.text-one :last-child {
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  background-color: red;
+  margin-top: 20px;
+}
+
+.cards {
+  display: flex;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.card img {
+  height: 50px;
+  margin-top: -40px;
+}
+
+.greybox {
+  background-color: #151515;
+  width: 50%;
+  height: 900px;
+  position: absolute;
+  top: 570px;
+  z-index: -1;
+}
+
+.card {
+  margin-left: 20px;
+  padding: 80px 30px;
+  background: #212121;
+  color: white;
+  margin-top: -40px;
+}
+
+.card2 img {
+  background-color: rgb(243, 63, 93);
+}
+
+.card a {
+  position: absolute;
+  text-decoration: none;
+  color: rgb(212, 16, 48);
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.card h1 {
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.card p {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.container-two {
+  display: grid;
+  grid-template-rows: 1fr 1.5fr;
+  margin-bottom: -50px;
+}
+
+.container-two-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+}
+
+.container-two-bottom .left {
+  color: rgb(212, 16, 48);
+  text-align: center;
+  margin-top: 130px;
+}
+.container-two-bottom .left h2 {
+  color: white;
+}
+
+.container-two-bottom .left h1 {
+  font-size: 80px;
+}
+
+.cards-two {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.card-two {
+  flex-wrap: nowrap;
+  box-sizing: content-box;
+  width: 25%;
+  align-items: center;
+  text-align: center;
+  padding: 30px 50px;
+  background: #212121;
+  margin-right: 40px;
+  margin-top: 30px;
+  color: rgb(212, 16, 48);
+}
+.card-two p {
+  color: white;
+}
+
+.left {
+  margin-left: 90px;
+}
+
+.left p {
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 10px;
+  font-family: "Poppins";
+  font-size: 100px;
+  font-weight: bolder;
+}
+.left h2 {
+  margin-top: 140px;
+  margin-left: 130px;
+  font-size: 20px;
+}
+
+.card:hover {
+  background: rgb(29, 28, 28);
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+.top-three {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+}
+
+.right-three a {
+  text-decoration: none;
+  color: white;
+  margin-left: 410px;
+  padding: 10px 20px;
+  background: rgb(212, 16, 48);
+}
+
+.left-three {
+  margin-left: 200px;
+}
+.left-three h1 {
+  font-weight: 1200;
+  font-size: 40px;
+  font-family: "Poppins";
+}
+.left-three p {
+  margin-top: 5px;
+  font-weight: 100;
+}
+
+.bottom-three {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 170px;
+  margin-right: 100px;
+  margin-top: 50px;
+}
+
+.card-four {
+  margin-left: 30px;
+  color: white;
+  margin-top: 20px;
+}
+
+.card-four a {
+  text-decoration: none;
+  color: rgb(212, 16, 48);
+  font-size: 18px;
+}
+
+.sub-container-four {
+  height: 200px;
+  width: 70%;
+  background: #212121;
+  margin-left: 170px;
+  color: white;
+  margin-top: 80px;
+  padding-bottom: 60px;
+}
+
+.sub-container-four h1 {
+  margin-left: 60px;
+  padding-top: 40px;
+  font-size: 40px;
+}
+.sub-container-four p {
+  margin-left: 60px;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.sub-container-four a {
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  margin-left: 700px;
+  padding: 10px 40px;
+  background: rgb(212, 16, 48);
+  margin-top: -120px;
+}
+
+footer {
+  margin-top: 100px;
+}
+.top {
+  margin-left: 500px;
+}
+.top a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  margin-left: 35px;
+}
+
+.icon img {
+  height: 20px;
+  margin-left: 40px;
+}
+
+.bottom {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  margin-top: 10px;
+  background: #212121;
+}
+
+.icons {
+  margin-left: 300px;
+  margin-top: 10px;
+}
+
+.bottom > img {
+  margin-left: 150px;
+  height: 40px;
+}
+
+.fa-solid {
+  color: rgb(212, 16, 48);
+}
+
+.fa-caret-down {
+  color: white;
+}
